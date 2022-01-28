@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+
+.center
+{
+    width:100%;
+    text-align: center;
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+
+.appName {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  /* font-style: italic; */
+  font-stretch: expanded;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0b5041;
+}
+
+.appVersion {
+  text-align: center;
+  font-size: .8em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+  font-style: italic;
+  /* font-stretch: expanded; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #e01b0d;
+}
+
+.topic {
+  text-align: center;
+  font-size: 1.8em;
+  padding-bottom: 0.5em;
+}
+
+.topicPurchase {
+  color:rgb(7, 99, 141);
+}
+
+.topicMaster {
+  color:#bd534b;
+}
+
+.lblAddNew {
+  font-size:0.8em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+  padding-bottom: 1.3em;
+  margin-right: 0.1em;
+}
+
+.txtAddNew {
+  /* font-size:0.8em; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+  /* padding-bottom: 1.3em; */
+  /* margin-right: 0.1em; */
+}
+
+.btnAddNew {
+  height: 5px;
+  width: 50px;
+  flex-direction: column;
+  margin-left :5px;
+  align-items: center;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid rgb(7, 99, 141) ;
+  font-size:0.8em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+  padding-bottom: 1.3em;
+}
+
+.btnAddNewEnable {
+  color: #ecedee;
+  background-color: rgb(7, 99, 141);
+}
+
+.btmAddNewDisable {
+  color: #88898a;
+  background-color: rgb(78, 85, 88);
+}
+
+.items {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-left :5px;
+  align-items: center;
+  border-radius: 10px 10px 10px 10px;
+  font-size:0.55em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;
+  /* padding-bottom: .5em; */
+  padding: .5em, .5em, .5em, .5em;
+  margin: .5em, .5em, .5em, .5em;
+}
+
+.itemsPurchase {
+  color: #ecedee;
+  background-color: rgb(7, 99, 141);
+  border: 5px solid rgb(7, 99, 141) ;
+}
+
+.itemsMaster {
+  color: #ecedee;
+  background-color: #bd534b;
+  border: 5px solid #bd534b;
+}
+
+.itemImg {
+  width: 40px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
